@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/30DaysOfGCloud-progress/static/css/main.19812fd5.chunk.css",
+    "main.js": "/30DaysOfGCloud-progress/static/js/main.1e939a56.chunk.js",
+    "main.js.map": "/30DaysOfGCloud-progress/static/js/main.1e939a56.chunk.js.map",
+    "runtime-main.js": "/30DaysOfGCloud-progress/static/js/runtime-main.08957ca8.js",
+    "runtime-main.js.map": "/30DaysOfGCloud-progress/static/js/runtime-main.08957ca8.js.map",
+    "static/js/2.59cc3913.chunk.js": "/30DaysOfGCloud-progress/static/js/2.59cc3913.chunk.js",
+    "static/js/2.59cc3913.chunk.js.map": "/30DaysOfGCloud-progress/static/js/2.59cc3913.chunk.js.map",
+    "index.html": "/30DaysOfGCloud-progress/index.html",
+    "static/css/main.19812fd5.chunk.css.map": "/30DaysOfGCloud-progress/static/css/main.19812fd5.chunk.css.map",
+    "static/js/2.59cc3913.chunk.js.LICENSE.txt": "/30DaysOfGCloud-progress/static/js/2.59cc3913.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08957ca8.js",
+    "static/js/2.59cc3913.chunk.js",
+    "static/css/main.19812fd5.chunk.css",
+    "static/js/main.1e939a56.chunk.js"
+  ]
+}
