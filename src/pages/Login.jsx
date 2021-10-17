@@ -4,7 +4,8 @@ import { useHistory } from "react-router";
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 
-const Login = () => {
+const Login = () => 
+{
   
     const history = useHistory();
   
@@ -32,19 +33,18 @@ const Login = () => {
     };
 
     return (
-        <>
+          <div id="nnwe">
+          <h1 style={{marginTop:'0px'}}><img id = "logo" alt= "Google-Cloud" src= "https://events.withgoogle.com/media/ade087df/img/microsite-wsx/logos/google-cloud.png"/></h1>
             <div id="login">
                 <div id="info">{info}</div>
                 <form onSubmit={passAuth} id="login--form">
-                    <TextField type="password" onChange={changePassFunc} label="Access key" value={pass} variant="outlined" />
-
+                    <TextField type="password" onChange={changePassFunc} label="Access key" value={pass} variant="outlined"/>
                     <Button type="submit" variant="contained" size="large">
                         Login
                     </Button>
                 </form>
             </div>
-        </>
+            </div>
     );
 };
-
 export default Login;
