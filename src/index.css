@@ -9,9 +9,8 @@ body {
   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; 
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -26,6 +25,7 @@ code {
   background-color: white;
   padding-top: 1rem;
   border: solid 0.15rem grey;
+  margin-top: 0px;
 }
 
 #logo {
@@ -47,7 +47,13 @@ other too.*/
   position: relative;
   z-index: -1;
 }
-
+#nnwe{
+  background: url('./images/Google_Cloud.gif') no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
 #topic {
   /* margin-top: 15rem; */
   max-width: 100vw;
@@ -83,6 +89,9 @@ other too.*/
   margin: auto;
   height: 60vh;
   padding-bottom: 20vh;
+  box-shadow: 10px 4px 4px rgba(0, 0, 0, 0.15);
+  border: solid 3px rgba(0, 0, 0, 0.15);
+  padding-bottom: 0px;
 }
 
 .badge {
@@ -116,25 +125,27 @@ p {
 }
 
 #login {
+  font-weight:bolder;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   transform: translate(-50%);
-  margin-left: 50vw;
-  margin-top: 10rem;
+  margin-left: 54.3vw;
+  margin-top: 8.8rem;
   padding: 3rem;
-  height: 10rem;
+  height: 12.7rem;
   width: 20rem;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border: solid 1px rgba(0, 0, 0, 0.15);
-  border-radius: 1rem;
-  font-size: larger;
+  box-shadow: 5px 6px 5px rgba(0, 0, 0, 0.15);
+  border: solid 3px rgba(0, 0, 0, 0.15);
+  border-radius: 2rem;
+  font-size: x-large;
+  position: relative;
 }
 
 #info {
-  margin-bottom: 1rem;
+  margin-bottom: 1rem
 }
 
 #login--form {
@@ -157,8 +168,15 @@ p {
 }
 
 @media(max-width: 1024px){
+  #nnwe{
+    width: 1024px;
+    height: 100vh;
+  }
   #banner{
     height: 60vh;
+  }
+  #nnwe{
+    width:auto;
   }
   #gdsc-banner{
     margin-bottom: 0;
@@ -176,8 +194,16 @@ p {
   }
 }
 @media(max-width: 768px){
+  #nnwe{
+  width: 768px;
+  height: 100vh;
+}
+
   #banner{
     height: 45vh;
+  }
+  #nnwe{
+    width:auto;
   }
   #gdsc-banner{
     margin-bottom: 0;
@@ -194,8 +220,15 @@ p {
   }
 }
 @media(max-width: 425px){
+  #nnwe{
+    width: 425px;
+    height: 100vh;
+  }
   #banner{
     height: 24vh;
+  }
+  #nnwe{
+    width:auto;
   }
   #gdsc-banner{
     background-size: 70vh contain;
@@ -220,8 +253,15 @@ p {
   }
 }
 @media(max-width: 375px){
+  #nnwe{
+    width: 375px;
+    height: 100vh;
+  }
   #banner{
     height: 22vh;
+  }
+  #nnwe{
+    width:auto;
   }
   #gdsc-banner{
     background-size: 70vh contain;
