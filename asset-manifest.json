@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/30DaysOfGCloud-progress/static/css/main.9f350b2e.chunk.css",
-    "main.js": "/30DaysOfGCloud-progress/static/js/main.01871aa8.chunk.js",
-    "main.js.map": "/30DaysOfGCloud-progress/static/js/main.01871aa8.chunk.js.map",
+    "main.js": "/30DaysOfGCloud-progress/static/js/main.17346ea2.chunk.js",
+    "main.js.map": "/30DaysOfGCloud-progress/static/js/main.17346ea2.chunk.js.map",
     "runtime-main.js": "/30DaysOfGCloud-progress/static/js/runtime-main.31d74540.js",
     "runtime-main.js.map": "/30DaysOfGCloud-progress/static/js/runtime-main.31d74540.js.map",
     "static/js/2.ffa2c841.chunk.js": "/30DaysOfGCloud-progress/static/js/2.ffa2c841.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.31d74540.js",
     "static/js/2.ffa2c841.chunk.js",
     "static/css/main.9f350b2e.chunk.css",
-    "static/js/main.01871aa8.chunk.js"
+    "static/js/main.17346ea2.chunk.js"
   ]
 }
